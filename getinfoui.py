@@ -1,6 +1,3 @@
-import os
-import pickle
-import sys
 import tkinter as tk
 from tkinter import messagebox
 
@@ -13,6 +10,8 @@ class Guest:
         self.price = price
 
 class HotelManagementApp:
+    SEGOE_UI_FONT = ("Segoe UI", 17, "bold")
+
     def __init__(self):
         self.root = tk.Tk()
         self.root.geometry("881x582+249+104")
@@ -41,7 +40,7 @@ class HotelManagementApp:
         self.text_area.configure(selectforeground="black")
         self.text_area.configure(width=764)
 
-        label = tk.Label(frame, text="ENTER THE ROOM NO.   :", background="#d9d9d9", font=("Segoe UI", 23, "bold"))
+        label = tk.Label(frame, text="ENTER THE ROOM NO.   :", background="#d9d9d9", font=self.SEGOE_UI_FONT)
         label.place(relx=0.12, rely=0.15, height=48, width=377)
 
         self.room_entry = tk.Entry(frame)
@@ -52,7 +51,8 @@ class HotelManagementApp:
         self.room_entry.configure(insertbackground="black")
         self.room_entry.configure(width=84)
 
-        submit_button = tk.Button(frame, text="SUBMIT", background="#d9d9d9", font=("Segoe UI", 17, "bold"), command=self.get_info)
+        submit_button = tk.Button(frame, text="SUBMIT", background="#d9d9d9", font=self.SEGOE_UI_FONT,
+                                  command=self.get_info)
         submit_button.place(relx=0.39, rely=0.29, height=74, width=197)
 
         message = tk.Message(frame, text="GET INFO HERE ..!!", background="#d9d9d9", font=("Segoe UI", 28, "bold"))
