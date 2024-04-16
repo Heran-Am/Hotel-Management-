@@ -31,4 +31,38 @@ My experience on GitHub as a beginner has been enriching. Through exploration an
 ## 2. UML
 
 
+ ## 3. DDD
+In my project, I embraced Domain-Driven Design (DDD) because it emphasizes understanding the core domain, setting clear boundaries, and fostering collaboration through shared language.
+
+To kicked off the project, I organized a brainstorming session [brainstorming session](DDD/brainstorming.png) where we outlined our goals and features collaboratively. Techniques like mind mapping helped us generate ideas and prioritize requirements, laying the groundwork for our development plan.
+
+  Next, I dived deep into understanding key domain concepts, aiming for clarity and insight. This informed better decision-making as we moved forward.
+
+With a solid grasp of domain ideas [DDD](DDD/domainideas.png), I focused on developing a 'ubiquitous language' [ubiquitous language](DDD/domainUbiquitious%20language.png) shared vocabulary for smooth communication and understanding among team members.
+
+To visualize our project's structure, I created a context map [context map](DDD/content%20mapping.png), outlining key content and its relationships. This served as a visual roadmap for our development journey.
+
+Finally, I distilled our core domain into a chart, providing a clear overview of its components and interactions. [Core domain](DDD/core%20domain.png)
+
+
+## 4.Metrics
+These are the metrics listed below :
+
+
+Quality Gate Status(Passed):[Status](https://sonarcloud.io/summary/new_code?id=Heran-Am_Hotel-Management-)
+
+Maintainability(0 Code Smells):[Maintainability Rating](https://sonarcloud.io/component_measures?metric=Maintainability&id=Heran-Am_hotel_managment)
+
+Duplications(Duplicated Lines (%)0.0%):[Duplications](https://sonarcloud.io/component_measures?id=Heran-Am_Hotel-Management-&metric=new_duplicated_lines_density&view=list)
+Security (0 Vulnerabilities)(A):[Review](https://sonarcloud.io/component_measures?metric=security_hotspots_reviewed&id=Heran-Am_hotel_managment)
+
+Security Review(0 Security Hotspots)(A):[Review](https://sonarcloud.io/component_measures?metric=security_hotspots_reviewed&id=Heran-Am_hotel_managment)
+Reliability Rating(0 Bugs)(A): [Rating](https://sonarcloud.io/component_measures?metric=security_rating&id=Heran-Am_hotel_managment)
+
+![Screenshot 2024-03-30 170410](https://github.com/Heran-Am/hotel_managment/assets/149790376/a6ac2640-87f0-47a0-9f28-0af40b33c3a6)
+
+![passed](https://github.com/Heran-Am/hotel_managment/assets/149790376/abf383c3-e54d-414f-9919-53d43d1c280b)
+
+
+
 
