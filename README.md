@@ -28,4 +28,7 @@ The Hotel Management System offers a user-friendly interface for efficient hotel
 ## 1. Git 
 My experience on GitHub as a beginner has been enriching. Through exploration and experimentation, I've delved into the world of version control, discovering the power of collaborative development. With each commit, push, and pull request, I've gained invaluable insights and honed my skills. As I continue this journey, I look forward to further growth and contribution within the vibrant GitHub community.
 
+## 2. UML
+
+
 
