@@ -2,8 +2,9 @@ name: Python CI
 
 on:
   push:
-    branches:
-      - main  # Change this to your main branch name
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   build:
@@ -13,20 +14,15 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Set up Python 3.x
+    - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: 3.x
+        python-version: '3.x'
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt  # Change this to your requirements file if you have one
+        pip install -r requirements.txt  # If you have any dependencies listed in requirements.txt
 
     - name: Run tests
-      run: |
-        python test.py  # Change this to your test script name if you have one
-
-    - name: Build application
-      run: |
-        python build.py  # Change this to your build script name if you have one
+      run: python test.py  # Change this to your test script name if it's different
