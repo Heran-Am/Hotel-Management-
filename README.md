@@ -64,5 +64,27 @@ Reliability Rating(0 Bugs)(A): [Rating](https://sonarcloud.io/component_measures
 ![passed](https://github.com/Heran-Am/hotel_managment/assets/149790376/abf383c3-e54d-414f-9919-53d43d1c280b)
 
 
+## 5. Clean Code Development
+Clean code Developement [Cheatsheet](https://github.com/Heran-Am/hotel_managment/blob/main/cheatsheet/cheatsheet.txt) is here and example from the code.
+
+Comments/Doctstrings : Use Docstrings or comments to explain the function/methods.
+
+Modularity: The code is structured into smaller components for improved [readability](https://sonarcloud.io/component_measures?metric=reliability_remediation_effort&id=Heran-Am_hotel_managment). Indentation, spacing, and line breaks are used effectively to enhance code quality. 
+
+DRY (Don't Repeat Yourself): Reusable functions, modules, or libraries can help prevent code [duplication](https://sonarcloud.io/component_measures?metric=Duplications&id=Heran-Am_hotel_managment). In sonarcloud metrics, we can see no duplication Duplicated Lines 
+
+
+
+
+Functional Programming
+The functional_programming.py file contains functions that demonstrate functional programming concepts such as filtering and mapping over guest data.
+
+Data Storage Layer (DSL)
+The Dsl.py file implements the Data Storage Layer, providing functions to handle hotel data storage and retrieval.
+
+Contributors
+
+
+
 
 
