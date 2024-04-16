@@ -51,13 +51,13 @@ These are the metrics listed below :
 
 Quality Gate Status(Passed):[Status](https://sonarcloud.io/summary/new_code?id=Heran-Am_Hotel-Management-)
 
-Maintainability(0 Code Smells):[Maintainability Rating](https://sonarcloud.io/component_measures?metric=Maintainability&id=Heran-Am_hotel_managment)
+Maintainability(0 Code Smells):[Maintainability Rating](https://sonarcloud.io/component_measures?metric=Maintainability&id=Heran-Am_Hotel-Management-)
 
 Duplications(Duplicated Lines (%)0.0%):[Duplications](https://sonarcloud.io/component_measures?id=Heran-Am_Hotel-Management-&metric=new_duplicated_lines_density&view=list)
-Security (0 Vulnerabilities)(A):[Review](https://sonarcloud.io/component_measures?metric=security_hotspots_reviewed&id=Heran-Am_hotel_managment)
+Security (0 Vulnerabilities)(A):[Review](https://sonarcloud.io/component_measures?metric=Security&id=Heran-Am_Hotel-Management-)
 
-Security Review(0 Security Hotspots)(A):[Review](https://sonarcloud.io/component_measures?metric=security_hotspots_reviewed&id=Heran-Am_hotel_managment)
-Reliability Rating(0 Bugs)(A): [Rating](https://sonarcloud.io/component_measures?metric=security_rating&id=Heran-Am_hotel_managment)
+Security Review(0 Security Hotspots)(A):[Review](https://sonarcloud.io/component_measures?metric=new_security_hotspots&id=Heran-Am_Hotel-Management-)
+Reliability Rating(0 Bugs)(A): [Rating](https://sonarcloud.io/component_measures?metric=new_bugs&id=Heran-Am_Hotel-Management-)
 
 ![Screenshot 2024-03-30 170410](https://github.com/Heran-Am/hotel_managment/assets/149790376/a6ac2640-87f0-47a0-9f28-0af40b33c3a6)
 
