@@ -1,327 +1,176 @@
 import os
 import pickle
 
-print(
-    "///////////////****************//////////////*****************/////////////////*****************///////////////////******************//////////")
-print(
-    "----------------------------------------------------- 5 STAR HOTEL AND RESORTS -----------------------------------------------------------------")
-print(
-    "//////////////****************///////////////*****************/////////////////*****************///////////////////******************//////////")
-
-u = list()
-Delux = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-Semi_Delux = (11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25)
-General = (26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45)
-Joint_Room = (46, 47, 48, 49, 50, 46, 47, 48, 49, 50)
-m = [9]
-G = []
-
-
-def chk_name():
-    while True:
-        print("\n")
-        name = input("ENTER GUEST NAME:")
-        a = name.isdigit()
-        if len(name) != 0 and a != True:
-            return name
-
-            break
-        else:
-            print("invalid input please input a valid name")
-            print(" ")
-
-
-def chk_add():
-    while True:
-        print("\n")
-        address = input("ENTER GUEST ADDRESS:")
-        a = address.isdigit()
-        if len(address) != 0 and a != True:
-            return address
-            break
-
-        else:
-            print("invalid input ")
-        print(" ")
-
-
-def chk_mo():
-    while True:
-        print("\n")
-        mobile_no = input("ENTER MOBILE/PNOHE NO.:")
-        if mobile_no.isdigit() == True and len(mobile_no) != 0 and len(mobile_no) == 10:
-            return mobile_no
-            break
-        else:
-            print("invalid input ")
-        print(" ")
-
-
-def chk_day():
-    while True:
-        print("\n")
-        no_of_days = input("ENTER NO. OF DAYS GUEST WANT TO STAY:")
-        a = no_of_days.isdigit()
-        if a == True and len(no_of_days) != 0:
-            return no_of_days
-            break
-        else:
-            print("invalid input ")
-
-
-def chk_pay():
-    while True:
-        print("\n")
-        op = input("Enter guest's choice:")
-        a = op.isdigit()
-        if len(op) != 0 and a == True and (op == "1" or op == "2"):
-            op = int(op)
-            return op
-            break
-        else:
-            print("invalid input ")
-
-
-class save:
-    price = 0
-    room = "0"
-
+class Guest:
     def __init__(self):
-        self.price = 0
-        self.name = " "
-        self.address = " "
+        self.name = ""
+        self.address = ""
+        self.mobile_no = ""
         self.no_of_days = 0
-        self.room = "0"
+        self.price = 0
+        self.room = ""
 
     def enter(self):
-        self.name = chk_name()
-        self.address = chk_add()
-        self.mobile_no = chk_mo()
-        self.no_of_days = int(chk_day())
+        self.name = input("ENTER GUEST NAME: ")
+        while not self.name.strip():
+            print("Invalid input. Please input a valid name.")
+            self.name = input("ENTER GUEST NAME: ")
 
-    def tor(self):
+        self.address = input("ENTER GUEST ADDRESS: ")
+        while not self.address.strip():
+            print("Invalid input. Please input a valid address.")
+            self.address = input("ENTER GUEST ADDRESS: ")
+
+        self.mobile_no = input("ENTER MOBILE/PHONE NO.: ")
+        while not self.mobile_no.isdigit() or len(self.mobile_no) != 10:
+            print("Invalid input. Please input a valid 10-digit mobile/phone number.")
+            self.mobile_no = input("ENTER MOBILE/PHONE NO.: ")
+
+        self.no_of_days = int(input("ENTER NO. OF DAYS GUEST WANT TO STAY: "))
+        while self.no_of_days <= 0:
+            print("Invalid input. Number of days must be greater than 0.")
+            self.no_of_days = int(input("ENTER NO. OF DAYS GUEST WANT TO STAY: "))
+
+    def choose_room(self):
         print("1. Delux")
         print("2. Semi-Delux")
         print("3. General")
         print("4. Joint Room")
         while True:
-            ch = input("Enter guest's choice:")
-            a = ch.isdigit()
-            if len(ch) != 0 and a == True and (ch == "1" or ch == "2" or ch == "3" or ch == "4"):
+            choice = input("Enter guest's choice: ")
+            if choice.isdigit() and 1 <= int(choice) <= 4:
                 break
             else:
-                print("invalid input ")
-        ch = int(ch)
-        if ch == 1:
-            self.price = self.price + (2000 * self.no_of_days)
-            m[0] = 1
-        elif ch == 2:
-            self.price = self.price + (1500 * self.no_of_days)
-            m[0] = 2
-        elif ch == 3:
-            self.price = self.price + (1000 * self.no_of_days)
-            m[0] = 3
-        elif ch == 4:
-            self.price = self.price + (1700 * self.no_of_days)
-            m[0] = 4
-        else:
-            print("invalid choice")
+                print("Invalid input. Please enter a valid choice (1-4).")
+        choice = int(choice)
+
+        if choice == 1:
+            self.price += 2000 * self.no_of_days
+            self.room = "Delux"
+        elif choice == 2:
+            self.price += 1500 * self.no_of_days
+            self.room = "Semi-Delux"
+        elif choice == 3:
+            self.price += 1000 * self.no_of_days
+            self.room = "General"
+        elif choice == 4:
+            self.price += 1700 * self.no_of_days
+            self.room = "Joint Room"
 
     def payment_option(self):
         print("1. By cash")
         print("2. By credit/debit card")
-        op = chk_pay()
-        if op == 1:
-            print("No discount.")
-        elif op == 2:
-            self.price = self.price - ((self.price * 10) / 100)
-            print("Discount of 10%.")
-        else:
-            print("Invalid option.")
-
-    def bill(self):
-        print("\n")
-        print("@@@@@@@@@  5 STAR HOTEL AND RESORTS  @@@@@@@@@@@@@@@@")
-        print("@@@@@@@@@@@@ HAUS KHAZ,  NEW DELHI @@@@@@@@@@@@@@@@@@")
-        print("@@@@@@@@@@ SERVING    GUEST   SINCE @@@@@@@@@@@@@@@@@")
-        print("@@@@@@@@@@@@@@@    ###1950###       @@@@@@@@@@@@@@@@@")
-        print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
-        print("NAME-", self.name)
-        print("\n")
-        print("ADDRESS-", self.address)
-        print("\n")
-        print("MOBILE NO.-", self.mobile_no)
-        print("\n")
-        print("YOUR TOTAL BILL IS Rs.", self.price)
-        print("\n")
-        if m[0] == 1:
-            a = Delux
-        elif m[0] == 2:
-
-            a = Semi_Delux
-        elif m[0] == 3:
-            a = General
-        elif m[0] == 4:
-            a = Joint_Room
-
-        G = []
-        f2 = open("hotel.dat", "rb")
-        try:
-            while True:
-                s = pickle.load(f2)
-                k = s.room
-                G.append(k)
-                continue
-        except EOFError:
-            pass
-
-        for r in a:
-            if r not in G:
-                print(self.name, " - room", r, "is alloted to you")
-                self.room = r
-                break
-            else:
-                continue
-        self.room = r
-        print("\n")
-        print("@@@@@@@@@@@@@@@@@@@@ THANK YOU  @@@@@@@@@@@@@@@@@@@@@@")
-        print("@@@@@@@@ HOPE YOU WOULD ENJOY OUR SERVICE @@@@@@@@@@@@")
-
-
-# main
-
-
-
-
-while True:
-    print("\n")
-    print("1.Check in")
-    print("2.SHOW GUEST LIST")
-    print("3.Check out")
-    print("4.get info of any guest")
-    print("5.EXIT")
-    k = input("Enter choice:")
-
-
-
-
-
-    if k == "1":
-        a = GUEST()
-        f = open("hotel.dat", "ab")
-        a.enter()
-        a.tor()
-        a.payment_option()
-        a.bill()
-        pickle.dump(a, f,protocol=2)
-        f.close()
-
-
-
-
-
-
-    elif k == "2":
-        f1 = open("hotel.dat", "rb")
-        print("NAME", "\t", "\t", "ROOM NO.")
-        try:
-            while True:
-                s = pickle.load(f1)
-                print(s.name, "\t", "\t", s.room)
-        except EOFError:
-            pass
-        f1.close()
-
-
-
-
-
-
-    elif k == "3":
-        print("\n")
         while True:
-            a = input("ENTER ROOM NO.")
-            if len(a) != 0:
+            option = input("Enter guest's payment option: ")
+            if option.isdigit() and int(option) in [1, 2]:
+                option = int(option)
                 break
             else:
-                print("no input found")
-                continue
-            v = int(a)
-        v = int(a)
-        f = open("hotel.dat", "rb")
-        f1 = open("hote.dat", "ab")
-        n = 0
+                print("Invalid input. Please enter a valid payment option (1-2).")
+
+        if option == 2:
+            self.price *= 0.9  # 10% discount for credit/debit card payment
+
+    def generate_bill(self):
+        print("\n@@@@@@@@@@@  5 STAR HOTEL AND RESORTS  @@@@@@@@@@@@")
+        print("@@@@ HAUS KHAZ, NEW DELHI @@@@@@@")
+        print("@@@ SERVING GUESTS SINCE 1950 @@@@")
+        print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
+        print("NAME:", self.name)
+        print("ADDRESS:", self.address)
+        print("MOBILE NO.:", self.mobile_no)
+        print("ROOM TYPE:", self.room)
+        print("NO. OF DAYS STAYED:", self.no_of_days)
+        print("TOTAL BILL AMOUNT: Rs.", self.price)
+        print("--------------------------------------------------")
+
+def check_in():
+    guest = Guest()
+    guest.enter()
+    guest.choose_room()
+    guest.payment_option()
+    guest.generate_bill()
+
+    with open("hotel.dat", "ab") as f:
+        pickle.dump(guest, f, protocol=2)
+
+def show_guest_list():
+    print("\nGUEST LIST:")
+    print("NAME\t\tROOM TYPE")
+    with open("hotel.dat", "rb") as f:
         try:
             while True:
-                s = pickle.load(f)
-                if s.room == v:
-                    n = 1
-                    name1=s.name
-
-                    print(" ")
-                else:
-                    pickle.dump(s, f1)
+                guest = pickle.load(f)
+                print(f"{guest.name}\t\t{guest.room}")
         except EOFError:
-            if n == 0:
-                print("NO GUEST IN ROOM ", v)
-            elif n == 1:
-
-                print("THANK YOU",name1,"2 FOR VISTING US")
-                print("HOPE YOU LIKE OUR SERVICE")
-                print("\n")
             pass
-        f.close()
-        f1.close()
-        os.remove("hotel.dat")
-        os.rename("hote.dat", "hotel.dat")
 
+def check_out():
+    room_number = input("\nEnter ROOM NO.: ")
+    temp_file = "temp.dat"
 
-
-
-    elif k == "4":
-        f2 = open("hotel.dat", "rb")
-        while True:
-            v = input("ENTER ROOM NO.")
-            if len(v) != 0:
-                break
-            else:
-                print("no input found")
-                continue
-        v = int(v)
+    with open("hotel.dat", "rb") as f, open(temp_file, "wb") as temp:
+        guest_found = False
         try:
-            n = 0
             while True:
-                s = pickle.load(f2)
-                a = s.room
-                if v == a:
-                    n = 1
-                    print("NAME-", "\t", "\t", s.name)
-                    print("\n")
-                    print("ADDRESS-", "\t", s.address)
-                    print("\n")
-                    print("MOBILE NO.-", "  ", s.mobile_no)
-                    print("\n")
-                    print("HIS TOTAL BILL IS Rs.", s.price)
-                elif EOFError:
-                    if n == 0:
-                        print("NO GUEST IN ROOM ", v)
+                guest = pickle.load(f)
+                if guest.room != room_number:
+                    pickle.dump(guest, temp, protocol=2)
                 else:
-                    n = 0
-                    continue
+                    guest_found = True
         except EOFError:
             pass
-        f2.close()
 
-
-
-
-
-    elif k == "5":
-        break
-
-
+    if guest_found:
+        print("Guest checked out successfully.")
     else:
-        print("invalid choice")
-        continue
+        print("No guest found in the specified room.")
 
+    os.remove("hotel.dat")
+    os.rename(temp_file, "hotel.dat")
 
+def get_guest_info():
+    room_number = input("\nEnter ROOM NO.: ")
+    with open("hotel.dat", "rb") as f:
+        guest_found = False
+        try:
+            while True:
+                guest = pickle.load(f)
+                if guest.room == room_number:
+                    guest_found = True
+                    guest.generate_bill()
+        except EOFError:
+            pass
+
+    if not guest_found:
+        print("No guest found in the specified room.")
+
+def main():
+    print(
+        "///////////////****************//////////////*****************/////////////////*****************///////////////////******************//////////")
+    print(
+        "----------------------------------------------------- 5 STAR HOTEL AND RESORTS -----------------------------------------------------------------")
+    print(
+        "//////////////****************///////////////*****************/////////////////*****************///////////////////******************//////////")
+
+    while True:
+        print("\n1. Check in")
+        print("2. Show guest list")
+        print("3. Check out")
+        print("4. Get info of any guest")
+        print("5. EXIT")
+
+        choice = input("Enter your choice: ")
+
+        if choice == "1":
+            check_in()
+        elif choice == "2":
+            show_guest_list()
+        elif choice == "3":
+            check_out()
+        elif choice == "4":
+            get_guest_info()
+        elif choice == "5":
+            break
+        else:
+            print("Invalid choice. Please try
