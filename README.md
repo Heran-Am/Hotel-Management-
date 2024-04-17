@@ -96,6 +96,8 @@ I have written two unitest
 
 Purpose: This test ensures that the module getinfoui is imported successfully.
 Assertion: It checks if the imported module getinfoui is not None.
+
+And the Second unitest
 2, test_hotel_management_class_exists:
 
 Purpose: This test verifies if the HotelManagementApp class exists in the imported module.
