@@ -23,6 +23,7 @@ The Hotel Management System offers a user-friendly interface for efficient hotel
 - List Guests: View a list of all guests currently staying at the hotel.
 - Get Guest Info: Retrieve detailed information about a specific guest.
 - Generate Receipt: Generate a receipt for a guest.
+- [GUI]()
 
 
 ## 1. Git 
