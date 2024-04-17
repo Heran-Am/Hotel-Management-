@@ -59,7 +59,6 @@ Security (0 Vulnerabilities)(A):[Review](https://sonarcloud.io/component_measure
 Security Review(0 Security Hotspots)(A):[Review](https://sonarcloud.io/component_measures?metric=new_security_hotspots&id=Heran-Am_Hotel-Management-)
 Reliability Rating(0 Bugs)(A): [Rating](https://sonarcloud.io/component_measures?metric=new_bugs&id=Heran-Am_Hotel-Management-)
 
-![]
 
 ![passed](https://github.com/Heran-Am/Hotel-Management-/blob/main/pictures/Screenshot%202024-03-30%20170410.png)
 
