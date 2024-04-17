@@ -61,7 +61,7 @@ Reliability Rating(0 Bugs)(A): [Rating](https://sonarcloud.io/component_measures
 
 ![]
 
-![passed]
+![passed](https://github.com/Heran-Am/Hotel-Management-/blob/main/pictures/Screenshot%202024-03-30%20170410.png)
 
 
 ## 5. Clean Code Development
