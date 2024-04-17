@@ -77,8 +77,16 @@ Unittest: There is a also comprehensive unit test [Unittest](https://github.com/
 
 [Readability](https://sonarcloud.io/component_measures?metric=Reliability&id=Heran-Am_Hotel-Management-): Make the code easy to read and understand. Avoid long lines of code that require horizontal scrolling.
 
+##6. & 7. Build and CI/CD  Workflow
+
+As points 6 and 7 seamlessly integrate into my development process. Leveraging GitHub Actions for build and Continuous Integration/Continuous Deployment (CI/CD) has been a game-changer. Since my project is in Python, GitHub Actions felt like the natural choice. While other build management systems like Ant, Maven, and Gradle are more commonly associated with Java projects, I found GitHub Actions to be a perfect fit for Python.
 
 
+Test: Unit tests and integration tests play a crucial role in ensuring the quality and reliability of our codebase. GitHub Actions empowers us to execute these tests seamlessly, catching bugs before they become problems. The CI/CD pipeline defined in a YAML-based configuration file within our GitHub repository keeps everything organized and efficient.
+
+Build: Our pipeline handles everything from compiling source code to bundling assets and generating artifacts for deployment. But it wasn't all smooth sailing – during testing, I encountered some stubborn error messages that brought the pipeline to a halt. With persistence and determination, I tackled each issue head-on, refusing to give up until the tests passed. It was a journey of trial and error, but in the end, it was worth it.
+
+GitHub Actions enables us to set up CI/CD pipelines directly within our GitHub repository, streamlining our development process and ensuring that our code is always in top shape.
 
 
 
