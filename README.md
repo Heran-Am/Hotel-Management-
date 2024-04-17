@@ -75,6 +75,10 @@ DRY (Don't Repeat Yourself): Reusable functions, modules, or libraries can help 
 
 Unittest: There is a also comprehensive unit test [Unittest](https://github.com/Heran-Am/Hotel-Management-/blob/main/test.py)
 
+[Readability](https://sonarcloud.io/component_measures?metric=Reliability&id=Heran-Am_Hotel-Management-): Make the code easy to read and understand. Avoid long lines of code that require horizontal scrolling.
+
+
+
 
 
 
