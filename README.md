@@ -33,8 +33,8 @@ My experience on GitHub as a beginner has been enriching. Through exploration an
 ## 2. UML
 
 I have use three diagrams for this project and those diagrams are,
-- [Class diagram](UML/Class%20diagram.png)
-- [Sequence diagram](UML/Sequence%20Diagram.jpg)
+- [Class diagram](https://github.com/Heran-Am/Hotel-Management-/blob/main/UML/Class%20diagram.png)
+- [Sequence diagram]()
 - [Usecase diagram](UML/Usecase%20diagram.png)
 
 
