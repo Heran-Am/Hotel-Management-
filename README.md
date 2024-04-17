@@ -106,6 +106,26 @@ Assertion: It checks if the getinfoui module has an attribute named 'HOTEL_MANAG
 here is the [unitest](https://github.com/Heran-Am/Hotel-Management-/blob/main/test.py)
 
 
+## 9. IDE
+
+I've opted for Visual Studio as my IDE for this project for several reasons. It offers a rich set of features and tools essential for software development, such as code editing, debugging, testing, and version control integration. Visual Studio supports various programming languages, frameworks, and platforms, making it versatile and suitable for diverse projects.
+
+Here are some of my favorite shortcuts in Visual Studio:
+
+1.Ctrl + D: Duplicate line or selection.
+2.Ctrl + /: Toggle line comment.
+3.Ctrl + Shift + L: Select all occurrences of the current selection.
+4.Ctrl + Shift + K: Delete line.
+5.Ctrl + Shift + P: Open command palette.
+6.Ctrl + Shift + F: Search across files.
+7.Ctrl + Shift + O: Go to symbol (methods, classes, etc.).
+8.Ctrl + F5: Run without debugging.
+9.Ctrl + F9: Toggle breakpoint.
+10.Ctrl + Shift + V: Open Markdown preview.
+These shortcuts help streamline my coding workflow and boost productivity in Visual Studio.
+
+
+
 
 
 Functional Programming
