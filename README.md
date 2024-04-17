@@ -65,13 +65,13 @@ Reliability Rating(0 Bugs)(A): [Rating](https://sonarcloud.io/component_measures
 
 
 ## 5. Clean Code Development
-Clean code Developement [Cheatsheet](https://github.com/Heran-Am/hotel_managment/blob/main/cheatsheet/cheatsheet.txt) is here and example from the code.
+Clean code Developement [Cheatsheet](https://github.com/Heran-Am/Hotel-Management-/blob/main/cheatsheet.txt) is here and example from the code.
 
 Comments/Doctstrings : Use Docstrings or comments to explain the function/methods.
 
-Modularity: The code is structured into smaller components for improved [readability](https://sonarcloud.io/component_measures?metric=reliability_remediation_effort&id=Heran-Am_hotel_managment). Indentation, spacing, and line breaks are used effectively to enhance code quality. 
+Modularity: The code is structured into smaller components for improved. Indentation, spacing, and line breaks are used effectively to enhance code quality. 
 
-DRY (Don't Repeat Yourself): Reusable functions, modules, or libraries can help prevent code [duplication](https://sonarcloud.io/component_measures?metric=Duplications&id=Heran-Am_hotel_managment). In sonarcloud metrics, we can see no duplication Duplicated Lines 
+DRY (Don't Repeat Yourself): Reusable functions, modules, or libraries can help prevent code [duplication](https://sonarcloud.io/component_measures?id=Heran-Am_Hotel-Management-&metric=duplicated_lines_density&view=list). In sonarcloud metrics, we can see no duplication Duplicated Lines 
 
 
 
