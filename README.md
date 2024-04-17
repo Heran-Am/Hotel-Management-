@@ -165,14 +165,26 @@ These functions are essential for managing the persistence of guest and receipt 
 
 
 
-Functional Programming
-The functional_programming.py file contains functions that demonstrate functional programming concepts such as filtering and mapping over guest data.
+## 11. [Functional Programming]()
+The functionalprogramming.py module contains functions that leverage functional programming techniques to interact with guest data stored in the hotel management application.
 
-Data Storage Layer (DSL)
-The Dsl.py file implements the Data Storage Layer, providing functions to handle hotel data storage and retrieval.
+***1. filter_guests_by_room(room_number):
 
-Contributors
+*Filters guest data by room number.
+*Parameters: room_number (str) - The room number to filter by.
+*Returns: List of guest objects filtered by the specified room number.
+*calculate_total_bill(guest_name):
 
+***2. Calculates the total bill for a guest.
+*Parameters: guest_name (str) - The name of the guest.
+*Returns: Total bill amount for the specified guest.
+*generate_receipt(guest_name):
+
+***3. Generates a receipt for a guest.
+*Parameters: guest_name (str) - The name of the guest.
+*Returns: List of strings representing the receipt details for the specified guest.
+
+These functions are designed to provide convenient ways to extract and manipulate guest data within the hotel management system using functional programming paradigms.
 
 
 
