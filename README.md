@@ -90,6 +90,18 @@ As points 6 and 7 seamlessly integrate into my development process. Leveraging G
 
 GitHub Actions enables us to set up CI/CD pipelines directly within our GitHub repository, streamlining our development process and ensuring that our code is always in top shape.github/workflows directory of my GitHub repository..[ymlfile](https://github.com/Heran-Am/Hotel-Management-/blob/main/.github/workflows/python-publish.yml)
 
+## 8. Unitest
+I have written two unitest 
+1, test_import:
+
+Purpose: This test ensures that the module getinfoui is imported successfully.
+Assertion: It checks if the imported module getinfoui is not None.
+2, test_hotel_management_class_exists:
+
+Purpose: This test verifies if the HotelManagementApp class exists in the imported module.
+Assertion: It checks if the getinfoui module has an attribute named 'HOTEL_MANAGEMENT', which should correspond to the HotelManagementApp class.
+
+here is the [unitest]()
 
 
 
