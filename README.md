@@ -34,7 +34,7 @@ My experience on GitHub as a beginner has been enriching. Through exploration an
  ## 3. DDD
 In my project, I embraced Domain-Driven Design (DDD) because it emphasizes understanding the core domain, setting clear boundaries, and fostering collaboration through shared language.
 
-To kicked off the project, I organized a brainstorming session [brainstorming session](DDD/brainstorming.png) where we outlined our goals and features collaboratively. Techniques like mind mapping helped us generate ideas and prioritize requirements, laying the groundwork for our development plan.
+To kicked off the project, I organized a brainstorming session [brainstorming session](https://github.com/Heran-Am/Hotel-Management-/blob/main/DDD/brainstorming.png) where we outlined our goals and features collaboratively. Techniques like mind mapping helped us generate ideas and prioritize requirements, laying the groundwork for our development plan.
 
   Next, I dived deep into understanding key domain concepts, aiming for clarity and insight. This informed better decision-making as we moved forward.
 
