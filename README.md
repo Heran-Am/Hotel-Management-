@@ -77,7 +77,7 @@ Unittest: There is a also comprehensive unit test [Unittest](https://github.com/
 
 [Readability](https://sonarcloud.io/component_measures?metric=Reliability&id=Heran-Am_Hotel-Management-): Make the code easy to read and understand. Avoid long lines of code that require horizontal scrolling.
 
-##6. & 7. Build and CI/CD  Workflow
+## 6. & 7. Build and CI/CD  Workflow
 
 As points 6 and 7 seamlessly integrate into my development process. Leveraging GitHub Actions for build and Continuous Integration/Continuous Deployment (CI/CD) has been a game-changer. Since my project is in Python, GitHub Actions felt like the natural choice. While other build management systems like Ant, Maven, and Gradle are more commonly associated with Java projects, I found GitHub Actions to be a perfect fit for Python.
 
