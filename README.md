@@ -71,7 +71,9 @@ Comments/Doctstrings : Use Docstrings or comments to explain the function/method
 
 Modularity: The code is structured into smaller components for improved. Indentation, spacing, and line breaks are used effectively to enhance code quality. 
 
-DRY (Don't Repeat Yourself): Reusable functions, modules, or libraries can help prevent code [duplication](https://sonarcloud.io/component_measures?id=Heran-Am_Hotel-Management-&metric=duplicated_lines_density&view=list). In sonarcloud metrics, we can see no duplication Duplicated Lines 
+DRY (Don't Repeat Yourself): Reusable functions, modules, or libraries can help prevent code [duplication](https://sonarcloud.io/component_measures?id=Heran-Am_Hotel-Management-&metric=duplicated_lines_density&view=list). In sonarcloud metrics, we can see no duplication Duplicated Lines.
+
+Unittest: There is a also comprehensive unit test [Unittest]()
 
 
 
