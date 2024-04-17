@@ -138,29 +138,29 @@ These shortcuts help streamline my coding workflow and boost productivity in Vis
 ## 10. DSL (Data Storage and Loading)
 The DSL.py module provides functionality for storing and loading data used in the hotel management application. It includes the following functions:
 
-save_guest_data(guest_data):
+####1. save_guest_data(guest_data):
 
 Saves guest data to the "hotel.dat" file using pickle serialization.
 Parameters: guest_data (list) - List of guest objects to be saved.
 Exceptions: Handles FileNotFoundError if the "hotel.dat" file is not found.
 load_guest_data():
 
-Loads guest data from the "hotel.dat" file.
+####2. Loads guest data from the "hotel.dat" file.
 Returns: List of guest objects loaded from the file.
 Exceptions: Handles FileNotFoundError if the "hotel.dat" file is not found.
 save_receipt_data(receipt_data):
 
-Saves receipt data to the "receipt.txt" file.
+####3. Saves receipt data to the "receipt.txt" file.
 Parameters: receipt_data (list) - List of strings representing receipt lines.
 Exceptions: Handles FileNotFoundError if the "receipt.txt" file is not found.
 load_receipt_data():
 
-Loads receipt data from the "receipt.txt" file.
+####4. Loads receipt data from the "receipt.txt" file.
 Returns: List of strings representing receipt lines loaded from the file.
 Exceptions: Handles FileNotFoundError if the "receipt.txt" file is not found.
 These functions are essential for managing the persistence of guest and receipt data within the application.
 
-[Click here]()
+[Click here](https://github.com/Heran-Am/Hotel-Management-/blob/main/DSL.py)
 
 
 
