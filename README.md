@@ -83,6 +83,7 @@ As points 6 and 7 seamlessly integrate into my development process. Leveraging G
 
 
 [Test](https://github.com/Heran-Am/Hotel-Management-/blob/main/test.py): Unit tests and integration tests play a crucial role in ensuring the quality and reliability of our codebase. GitHub Actions empowers me to execute these tests seamlessly, catching bugs before they become problems. The CI/CD pipeline defined in a YAML-based configuration file within my GitHub repository keeps everything organized and efficient.
+![test](https://github.com/Heran-Am/Hotel-Management-/blob/main/pictures/test.png)
 
 
 [Build](https://github.com/Heran-Am/Hotel-Management-/actions/runs/8711759514/job/23896578005): Our pipeline handles everything from compiling source code to bundling assets and generating artifacts for deployment. But it wasn't all smooth sailing – during testing, I encountered some stubborn error messages that brought the pipeline to a halt. With persistence and determination, I tackled each issue head-on, refusing to give up until the tests passed. It was a journey of trial and error, but in the end, it was worth it.
