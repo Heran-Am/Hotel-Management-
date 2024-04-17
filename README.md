@@ -24,6 +24,7 @@ The Hotel Management System offers a user-friendly interface for efficient hotel
 - Get Guest Info: Retrieve detailed information about a specific guest.
 - Generate Receipt: Generate a receipt for a guest.
 - [GUI](https://github.com/Heran-Am/Hotel-Management-/blob/main/pictures/GUI.png)
+- [GUI2](https://github.com/Heran-Am/Hotel-Management-/blob/main/pictures/GUII.png)
 
 
 ## 1. Git 
