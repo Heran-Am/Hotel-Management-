@@ -32,6 +32,11 @@ My experience on GitHub as a beginner has been enriching. Through exploration an
 
 ## 2. UML
 
+I have use three diagrams for this project and those diagrams are,
+- [Class diagram](UML/Class%20diagram.png)
+- [Sequence diagram](UML/Sequence%20Diagram.jpg)
+- [Usecase diagram](UML/Usecase%20diagram.png)
+
 
  ## 3. DDD
 In my project, I embraced Domain-Driven Design (DDD) because it emphasizes understanding the core domain, setting clear boundaries, and fostering collaboration through shared language.
