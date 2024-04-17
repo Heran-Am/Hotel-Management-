@@ -35,7 +35,7 @@ My experience on GitHub as a beginner has been enriching. Through exploration an
 I have use three diagrams for this project and those diagrams are,
 - [Class diagram](https://github.com/Heran-Am/Hotel-Management-/blob/main/UML/Class%20diagram.png)
 - [Sequence diagram](https://github.com/Heran-Am/Hotel-Management-/blob/main/UML/Hotel%20Management%20System%20-%20Sequence%20Diagram%20-%20Room%20Booking.jpg)
-- [Usecase diagram](UML/Usecase%20diagram.png)
+- [Usecase diagram](https://github.com/Heran-Am/Hotel-Management-/blob/main/UML/Usecasediagram.png)
 
 
  ## 3. DDD
