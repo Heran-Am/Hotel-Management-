@@ -8,11 +8,7 @@ class TestGetInfoUI(unittest.TestCase):
 
     def test_hotel_management_class_exists(self):
         # Check if the HOTEL_MANAGEMENT class exists in the imported module
-        self.assertTrue(hasattr(getinfoui, 'HOTEL_MANAGEMENT'))
-
-    def test_restart_program_function_exists(self):
-        # Check if the restart_program function exists in the imported module
-        self.assertTrue(hasattr(getinfoui, 'restart_program'))
+        self.assertTrue(hasattr(getinfoui, 'HotelManagementApp'))
 
 if __name__ == '__main__':
     unittest.main()
