@@ -1,0 +1,17 @@
+
+Clean Code Cheat Sheet
+Meaningful Names: Use descriptive names for variables, functions, and classes. Avoid single-letter names and opt for snake_case convention.
+
+Clear Comments: Write concise comments that explain the logic of the code. Comments should enhance understanding, not duplicate the code.
+
+Readability: Make the code easy to read and understand. Avoid long lines of code that require horizontal scrolling.
+
+Whitespace Usage: Use single whitespaces consistently. Place one whitespace before and after mathematical operators, and one after commas. Avoid multiple consecutive whitespaces.
+
+Modular Functions: Keep functions and methods small and focused. Each should have a single, well-defined responsibility. Split large functions into smaller ones if necessary.
+
+Automated Testing: Create automated tests and run them frequently during development. Tests ensure that the code functions as expected and facilitate refactoring.
+
+Consistent Style Guide: Follow a consistent style guide to maintain readability and consistency across the codebase. Adopting a style guide makes the code more understandable to others.
+
+Avoid Duplication: Embrace the "Don't Repeat Yourself" (DRY) principle. Refactor code to eliminate duplication and promote code reuse.
