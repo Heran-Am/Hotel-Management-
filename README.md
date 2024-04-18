@@ -45,9 +45,8 @@ To kicked off the project, I organized a brainstorming session [brainstorming se
 
   Next, I dived deep into understanding key domain concepts, aiming for clarity and insight. This informed better decision-making as we moved forward.
 
-With a solid grasp of domain ideas [DDD](DDD/domainideas.png), I focused on developing a 'ubiquitous language' [ubiquitous language](DDD/domainUbiquitious%20language.png) shared vocabulary for smooth communication and understanding among team members.
+With a solid grasp of [domain ideas ](https://github.com/Heran-Am/Hotel-Management-/blob/main/DDD/DomainIdeas.png).
 
-To visualize our project's structure, I created a context map [context map](DDD/content%20mapping.png), outlining key content and its relationships. This served as a visual roadmap for our development journey.
 
 Finally, I distilled our core domain into a chart, providing a clear overview of its components and interactions. [Core domain](https://github.com/Heran-Am/Hotel-Management-/blob/main/DDD/CoreDomain.png)
 
