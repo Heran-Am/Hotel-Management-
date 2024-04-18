@@ -49,7 +49,7 @@ With a solid grasp of domain ideas [DDD](DDD/domainideas.png), I focused on deve
 
 To visualize our project's structure, I created a context map [context map](DDD/content%20mapping.png), outlining key content and its relationships. This served as a visual roadmap for our development journey.
 
-Finally, I distilled our core domain into a chart, providing a clear overview of its components and interactions. [Core domain](DDD/core%20domain.png)
+Finally, I distilled our core domain into a chart, providing a clear overview of its components and interactions. [Core domain](https://github.com/Heran-Am/Hotel-Management-/blob/main/DDD/CoreDomain.png)
 
 
 ## 4.Metrics
