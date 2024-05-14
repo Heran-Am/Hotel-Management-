@@ -1,5 +1,3 @@
-from DSL import HotelDataHandler
-
 def filter_guests_by_room(room_number):
     """
     Filter guest data by room number.
