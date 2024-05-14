@@ -40,3 +40,4 @@ class HotelDataHandler:
         except FileNotFoundError:
             print("Error: receipt.txt file not found.")
         return receipt_data
+
