@@ -39,11 +39,11 @@ I have use three diagrams for this project and those diagrams are,
 
 
  ## 3. DDD
-In my project, I embraced Domain-Driven Design (DDD) because it emphasizes understanding the core domain, setting clear boundaries, and fostering collaboration through shared language.
+In my project, I embraced Domain-Driven Design (DDD) because it emphasizes understanding the core domain, setting clear boundaries.
 
-To kicked off the project, I organized a brainstorming session [brainstorming session](https://github.com/Heran-Am/Hotel-Management-/blob/main/DDD/brainstorming.png) where we outlined our goals and features collaboratively. Techniques like mind mapping helped us generate ideas and prioritize requirements, laying the groundwork for our development plan.
+To kicked off the project, I organized a brainstorming session [brainstorming session](https://github.com/Heran-Am/Hotel-Management-/blob/main/DDD/brainstorming.png) where I outlined my goals and features collaboratively. Techniques like mind mapping helped me generate ideas and prioritize requirements, laying the groundwork for my development plan.
 
-  Next, I dived deep into understanding key domain concepts, aiming for clarity and insight. This informed better decision-making as we moved forward.
+  Next, I dived deep into understanding key domain concepts, aiming for clarity and insight. This informed better decision-making as I moved forward.
 
 With a solid grasp of [domain ideas ](https://github.com/Heran-Am/Hotel-Management-/blob/main/DDD/DomainIdeas.png).
 
@@ -80,7 +80,7 @@ DRY (Don't Repeat Yourself): Reusable functions, modules, or libraries can help 
 
 Unittest: There is a also comprehensive unit test [Unittest](https://github.com/Heran-Am/Hotel-Management-/blob/main/test.py)
 
-[Readability](https://sonarcloud.io/component_measures?metric=Reliability&id=Heran-Am_Hotel-Management-): Make the code easy to read and understand. Avoid long lines of code that require horizontal scrolling.
+[Readability](https://sonarcloud.io/component_measures?metric=Reliability&id=Heran-Am_Hotel-Management-): Make the code easy to read and understand.
 
 ## 6. & 7. Build and CI/CD  Workflow
 
@@ -90,10 +90,10 @@ As points 6 and 7 seamlessly integrate into my development process. Leveraging G
 ![test](https://github.com/Heran-Am/Hotel-Management-/blob/main/pictures/test.png)
 
 
-[Build](https://github.com/Heran-Am/Hotel-Management-/actions/runs/8711759514/job/23896578005): Our pipeline handles everything from compiling source code to bundling assets and generating artifacts for deployment.
+[Build](https://github.com/Heran-Am/Hotel-Management-/actions/runs/8711759514/job/23896578005): My pipeline handles everything from compiling source code to bundling assets and generating artifacts for deployment.
 ![buil](https://github.com/Heran-Am/Hotel-Management-/blob/main/pictures/testbuild.png)
 
-GitHub Actions enables us to set up CI/CD pipelines directly within our GitHub repository, streamlining our development process and ensuring that our code is always in top shape.github/workflows directory of my GitHub repository..[ymlfile](https://github.com/Heran-Am/Hotel-Management-/blob/main/.github/workflows/python-publish.yml)
+GitHub Actions enables me to set up CI/CD pipelines directly within my GitHub repository, streamlining our development process and ensuring that my code is always in top shape.github/workflows directory of my GitHub repository..[ymlfile](https://github.com/Heran-Am/Hotel-Management-/blob/main/.github/workflows/python-publish.yml)
 
 ## 8. Unitest
 I have written two unitest 
@@ -157,8 +157,6 @@ Exceptions: Handles FileNotFoundError if the "receipt.txt" file is not found.
 These functions are essential for managing the persistence of guest and receipt data within the application.
 
 [Click here](https://github.com/Heran-Am/Hotel-Management-/blob/main/DSL.py)
-
-
 
 
 ## 11. Functional Programming
