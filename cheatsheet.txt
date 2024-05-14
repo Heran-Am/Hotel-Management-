@@ -1,5 +1,6 @@
 
-Clean Code Cheat Sheet
+Clean Code Cheat Sheet:
+
 Meaningful Names: Use descriptive names for variables, functions, and classes. Avoid single-letter names and opt for snake_case convention.
 
 Clear Comments: Write concise comments that explain the logic of the code. Comments should enhance understanding, not duplicate the code.
@@ -14,4 +15,4 @@ Automated Testing: Create automated tests and run them frequently during develop
 
 Consistent Style Guide: Follow a consistent style guide to maintain readability and consistency across the codebase. Adopting a style guide makes the code more understandable to others.
 
-Avoid Duplication: Embrace the "Don't Repeat Yourself" (DRY) principle. Refactor code to eliminate duplication and promote code reuse.
+Avoid Duplication: Embrace the "Don't Repeat Yourself" (DRY) principle. Refactor code to eliminate duplication and promote code reuse
