@@ -1,5 +1,3 @@
-import pickle
-
 class HotelDataHandler:
     @staticmethod
     def save_guest_data(guest_data):
