@@ -84,14 +84,13 @@ Unittest: There is a also comprehensive unit test [Unittest](https://github.com/
 
 ## 6. & 7. Build and CI/CD  Workflow
 
-As points 6 and 7 seamlessly integrate into my development process. Leveraging GitHub Actions for build and Continuous Integration/Continuous Deployment (CI/CD) has been a game-changer. Since my project is in Python, GitHub Actions felt like the natural choice. While other build management systems like Ant, Maven, and Gradle are more commonly associated with Java projects, I found GitHub Actions to be a perfect fit for Python.
+As points 6 and 7 seamlessly integrate into my development process. Leveraging GitHub Actions for build and Continuous Integration/Continuous Deployment (CI/CD) has been a game-changer. Since my project is in Python, GitHub Actions felt like the natural choice.
 
-
-[Test](https://github.com/Heran-Am/Hotel-Management-/blob/main/test.py): Unit tests and integration tests play a crucial role in ensuring the quality and reliability of our codebase. GitHub Actions empowers me to execute these tests seamlessly, catching bugs before they become problems. The CI/CD pipeline defined in a YAML-based configuration file within my GitHub repository keeps everything organized and efficient.
+[Test](https://github.com/Heran-Am/Hotel-Management-/blob/main/test.py):  GitHub Actions empowers me to execute these tests seamlessly, catching bugs before they become problems. The CI/CD pipeline defined in a YAML-based configuration file within my GitHub repository keeps everything organized and efficient.
 ![test](https://github.com/Heran-Am/Hotel-Management-/blob/main/pictures/test.png)
 
 
-[Build](https://github.com/Heran-Am/Hotel-Management-/actions/runs/8711759514/job/23896578005): Our pipeline handles everything from compiling source code to bundling assets and generating artifacts for deployment. But it wasn't all smooth sailing – during testing, I encountered some stubborn error messages that brought the pipeline to a halt. With persistence and determination, I tackled each issue head-on, refusing to give up until the tests passed. It was a journey of trial and error, but in the end, it was worth it.
+[Build](https://github.com/Heran-Am/Hotel-Management-/actions/runs/8711759514/job/23896578005): Our pipeline handles everything from compiling source code to bundling assets and generating artifacts for deployment.
 ![buil](https://github.com/Heran-Am/Hotel-Management-/blob/main/pictures/testbuild.png)
 
 GitHub Actions enables us to set up CI/CD pipelines directly within our GitHub repository, streamlining our development process and ensuring that our code is always in top shape.github/workflows directory of my GitHub repository..[ymlfile](https://github.com/Heran-Am/Hotel-Management-/blob/main/.github/workflows/python-publish.yml)
