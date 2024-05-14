@@ -114,29 +114,20 @@ here is the [unitest](https://github.com/Heran-Am/Hotel-Management-/blob/main/te
 
 ## 9. IDE
 
-I've opted for Visual Studio as my IDE for this project for several reasons. It offers a rich set of features and tools essential for software development, such as code editing, debugging, testing, and version control integration. Visual Studio supports various programming languages, frameworks, and platforms, making it versatile and suitable for diverse projects.
-
+I've opted for Visual Studio as my IDE for this project for several reasons. It offers a rich set of features and tools essential for software development.
 Here are some of my favorite shortcuts in Visual Studio:
 
 1.Ctrl + D: Duplicate line or selection.
 
 2.Ctrl + /: Toggle line comment.
 
-3.Ctrl + Shift + L: Select all occurrences of the current selection.
+3.Ctrl + Shift + K: Delete line.
 
-4.Ctrl + Shift + K: Delete line.
+4.Ctrl + Shift + P: Open command palette. 
 
-5.Ctrl + Shift + P: Open command palette. 
+5.Ctrl + F5: Run without debugging.
 
-6.Ctrl + Shift + F: Search across files.
-
-7.Ctrl + Shift + O: Go to symbol (methods, classes, etc.).
-
-8.Ctrl + F5: Run without debugging.
-
-9.Ctrl + F9: Toggle breakpoint.
-
-10.Ctrl + Shift + V: Open Markdown preview.
+6.Ctrl + F9: Toggle breakpoint.
 
 These shortcuts help streamline my coding workflow and boost productivity in Visual Studio.
 
